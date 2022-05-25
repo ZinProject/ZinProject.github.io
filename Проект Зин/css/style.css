@@ -1,0 +1,630 @@
+body {
+    margin: 0;
+}
+/*Navigation*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #eceff2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: "Comic Sans MS";
+}
+
+
+.navbar li a {
+    font-size: 1.4vw;
+    display: block;
+    color: #000;
+    padding: 12px 27px;
+    text-decoration: none;    
+
+}
+
+.navbar ul.nav a:hover, .navbar ul.nav a:focus, .navbar ul.nav a:active, .navbar ul.nav li.active a {
+    background-color: #ff7220;
+    color: #fff;
+    border-left: 8px solid #8a85c7;
+}
+
+/*Main Section*/
+.main {
+    width: fit-content;
+    margin-left: 15%;
+    height: 1000px;
+}
+.pic {
+    width: 100%;
+    height: auto;
+}
+.pic-pos img{
+    position: absolute;
+}
+.pic-logo {
+    width: 80%;
+    height: auto;
+    padding: 10%;
+    background-color: #cecee5;
+}
+.main p, h2, h3{
+    padding: 1px 16px;
+}
+.header {
+    position: relative;
+    display: inline-block;
+}
+/*Begining section*/
+.begining p {
+    font-family: 'Comic Sans MS';
+    color: #8a85c7;
+    position: absolute;
+}
+.begining h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+.title-begining {
+    font-size: 4.5vw;
+    margin-left: 54%;
+    margin-right: 4%;
+    margin-top: -60%;
+    color: white;
+}
+.text-begining {
+    font-size: 1.8vw;
+    margin-left: 44%;
+    margin-right: 10%;
+    margin-top: -50%;
+}
+/*About section*/
+.about p {
+    font-family: 'Comic Sans MS';
+    color: #8a85c7;
+    position: absolute;
+}
+.text-block-about {
+    margin-left: 40%;
+
+}
+.about h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+.title-about {
+    font-size: 4.5vw;
+    margin-left: 4%;
+    margin-right: 54%;
+    margin-top: -53%;
+    color: #fff;
+}
+.pic-about-1 {
+    width: 18.32%;
+    height: auto;
+    margin-left: 60.18%;
+    margin-right: 30%;
+    margin-top: -43.06%;
+    border: 10px solid #eceff2;
+}
+.pic-about-2 {
+    width: 18.2%;
+    height: auto;
+    margin-left: 50.15%;
+    margin-right: 30%;
+    margin-top: -50.75%;
+}
+.text-about-1 {
+    font-size: 2.1vw;
+    margin-left: 17.5%;
+    margin-right: 16%;
+    margin-top: -39%;
+}
+.text-about-2 {
+    font-size: 2.2vw;
+    margin-left: 6%;
+    margin-right: 40%;
+    margin-top: -49%;
+}
+.text-about-3 {
+    font-size: 1.7vw;
+    margin-left: 28%;
+    margin-right: 19%;
+    margin-top: -17.5%;
+}
+.text-about-4 {
+    font-size: 1.7vw;
+    margin-left: 28%;
+    margin-right: 19%;
+    margin-top: -28%;
+}
+
+/*Events section*/
+.events p {
+    font-family: 'Comic Sans MS';
+    color: white;
+    position: absolute;
+}
+.text-block-events1 {   
+    font-size: 1.8vw;
+    margin-left: 6%;
+    margin-right: 6%;  
+    margin-top: -49%;
+}
+.text-block-events2 {
+    font-size: 1.4vw;
+    margin-left: 34.5%;
+    margin-right: 6%;
+    margin-top: -31%;
+}
+.text-block-events3 {
+    font-size: 1.4vw;
+    margin-left: 34.5%;
+    margin-right: 6%;
+    margin-top: -22.5%;
+}
+.events h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+
+.title-events {
+    font-size: 4.5vw;
+    margin-left: 4%;
+    margin-right: 54%;
+    margin-top: -60%;
+    color: white;
+    background: #8a85c7;
+    border: 10px solid #8a85c7;
+}
+.pic-events-1 {
+    width: 12.25%;
+    height: auto;
+    margin-left: 5.5%;
+    margin-right: 30%;
+    margin-top: -31.75%;
+}
+.pic-events-2 {
+    width: 12.25%;
+    height: auto;
+    margin-left: 7.85%;
+    margin-right: 30%;
+    margin-top: -23.95%;
+    border: 10px solid #8a85c7;
+}
+.pic-events-3 {
+    width: 12.25%;
+    height: auto;
+    margin-left: 18.25%;
+    margin-right: 30%;
+    margin-top: -26.95%;
+}
+.pic-events-4 {
+    width: 33%;
+    height: auto;
+    margin-left: 5.91%;
+    margin-right: 30%;
+    margin-top: -49.45%;
+}
+.pic-events-5 {
+    width: 24.85%;
+    height: auto;
+    margin-left: 36.6%;
+    margin-right: 30%;
+    margin-top: -45.9%;
+    border: 10px solid #8a85c7;
+}
+.pic-events-6 {
+    width: 28.15%;
+    height: auto;
+    margin-left: 45.64%;
+    margin-right: 30%;
+    margin-top: -26.67%;
+}
+.pic-events-7 {
+    width: 20.48%;
+    height: auto;
+    margin-left: 14.55%;
+    margin-right: 30%;
+    margin-top: -25.07%;
+}
+.pic-events-8 {
+    width: 15.55%;
+    height: auto;
+    margin-left: 64.23%;
+    margin-right: 30%;
+    margin-top: -47.8%;
+}
+
+/*Freetime section*/
+.freetime p {
+    font-family: 'Comic Sans MS';
+    color: white;
+    position: absolute;
+}
+.freetime h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+
+.title-freetime {
+    font-size: 4.5vw;
+    margin-left: 5.2%;
+    margin-right: 30%;
+    margin-top: -59.9%;
+    color: white;
+    background: #ff7220;
+    border: 10px solid #ff7220;
+    border-radius: 0;
+
+}
+.text-block-freetime1 {
+    font-size: 3.2vw;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: -48%;
+}
+.text-block-freetime2 {
+    font-size: 1.9vw;
+    margin-left: 7%;
+    margin-right: 34%;
+    margin-top: -30%;
+}
+.text-block-freetime3 {
+    font-size: 2.7vw;
+    margin-left: 7%;
+    margin-right: 33%;
+    margin-top: -45.5%;
+}
+.text-block-freetime4 {
+    font-size: 2vw;
+    margin-left: 34.5%;
+    margin-right: 5.5%;
+    margin-top: -25%;
+}
+.pic-freetime-1 {
+    width: 20%;
+    height: auto;
+    margin-left: 58.85%;
+    margin-right: 30%;
+    margin-top: -31.58%;
+}
+.pic-freetime-2 {
+    width: 20%;
+    height: auto;
+    margin-left: 59.65%;
+    margin-right: 30%;
+    margin-top: -49.2%;
+}
+.pic-freetime-3 {
+    width: 20%;
+    height: auto;
+    margin-left: 6.4%;
+    margin-right: 30%;
+    margin-top: -27.4%;
+}
+
+
+/*Map section*/
+.map p {
+    font-family: 'Comic Sans MS';
+    color: #90989f;
+    position: absolute;
+}
+.map h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+
+.title-map {
+    font-size: 4.5vw;
+    margin-left: 4%;
+    margin-right: 54%;
+    margin-top: -57%;
+    color: white;
+}
+
+.pic-map-1 {
+    width: 6.87%;
+    height: auto;
+    margin-left: 18.75%;
+    margin-right: 30%;
+    margin-top: -14%;
+    border: 6px solid #fff;
+}
+.pic-map-2 {
+    width: 8.38%;
+    height: auto;
+    margin-left: 12%;
+    margin-right: 30%;
+    margin-top: -15.3%;
+}
+.pic-map-3 {
+    width: 6.85%;
+    height: auto;
+    margin-left: 21.7%;
+    margin-right: 30%;
+    margin-top: -37.89%;
+}
+.pic-map-4 {
+    width: 6.85%;
+    height: auto;
+    margin-left: 11.9%;
+    margin-right: 30%;
+    margin-top: -35.13%;
+    border: 6px solid #fff;
+}
+.pic-map-5 {
+    width: 6.85%;
+    height: auto;
+    margin-left: 6.06%;
+    margin-right: 30%;
+    margin-top: -36.9%;
+}
+.pic-map-6 {
+    width: 6.85%;
+    height: auto;
+    margin-left: 66.35%;
+    margin-right: 33%;
+    margin-top: -25.1%;
+}
+.pic-map-7 {
+    width: 6.85%;
+    height: auto;
+    margin-left: 55.7%;
+    margin-right: 30%;
+    margin-top: -25.1%;
+}
+
+.logo-text-1 {
+    font-size: 1.9vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -47%;
+}
+.logo-text-2 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -42%;
+}
+.logo-text-3 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -37%;
+}
+.logo-text-4 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -32%;
+}
+.logo-text-5 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -27%;
+}
+.logo-text-6 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -22%;
+}
+.logo-text-7 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -17%;
+}
+.logo-text-8 {
+    font-size: 2vw;
+    margin-left: 57%;
+    margin-right: 3%;
+    margin-top: -12%;
+}
+
+.logo-map-1 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -47.5%;
+}
+.logo-map-2 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -42.5%;
+}
+.logo-map-3 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -37.5%;
+}
+.logo-map-4 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -32.5%;
+}
+.logo-map-5 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -27.5%;
+}
+.logo-map-6 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -22.5%;
+}
+.logo-map-7 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -17.5%;
+}
+.logo-map-8 {
+    width: 4%;
+    height: auto;
+    margin-left: 53%;
+    margin-right: 30%;
+    margin-top: -12.5%;
+}
+
+/*Staff section*/
+.staff h2 {
+    font-family: 'Comic Sans MS';
+    position: absolute;
+}
+
+.title-staff {
+    font-size: 4.5vw;
+    margin-left: 4%;
+    margin-right: 30%;
+    margin-top: -59.9%;
+    color: white;
+    background: #a0a0a0;
+    border: 10px solid #a0a0a0;
+    border-radius: 10px;
+}
+
+/*Links section*/
+.links h2, p {
+    font-family: 'Comic Sans MS';
+    color: white;
+    position: absolute;
+}
+
+
+.title-links {
+    font-size: 4.5vw;
+    margin-left: 4%;
+    margin-right: 20%;
+    margin-top: -59%;
+    background: #ff7220;
+    border: 2px solid #ff7220;
+    border-radius: 10px;
+}
+
+.link img {
+    position: absolute;
+}
+
+.link-text-1 {
+    font-size: 1.3vw;
+    margin-left: 12.5%;
+    margin-right: 5.5%;
+    margin-top: -34%;
+}
+.link-text-2 {
+    font-size: 1.3vw;
+    margin-left: 27.5%;
+    margin-right: 5.5%;
+    margin-top: -34%;
+}
+.link-text-3 {
+    font-size: 1.3vw;
+    margin-left: 43.8%;
+    margin-right: 30%;
+    margin-top: -34%;
+}
+.link-text-3-1 {
+    font-size: 1.3vw;
+    margin-left: 45.8%;
+    margin-right: 30%;
+    margin-top: -32%;
+}
+.link-text-4 {
+    font-size: 1.3vw;
+    margin-left: 57.5%;
+    margin-right: 5.5%;
+    margin-top: -34%;
+}
+.link-text-5 {
+    font-size: 1.3vw;
+    margin-left: 22.7%;
+    margin-right: 5.5%;
+    margin-top: -14%;
+}
+.link-text-6 {
+    font-size: 1.3vw;
+    margin-left: 37.2%;
+    margin-right: 5.5%;
+    margin-top: -14%;
+}
+.link-text-7 {
+    font-size: 1.3vw;
+    margin-left: 51.5%;
+    margin-right: 5.5%;
+    margin-top: -14%;
+}
+
+.link-1 {
+    width: 10%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: -45%;
+}
+.link-2 {
+    width: 10%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: -45%;
+}
+.link-3 {
+    width: 10%;
+    height: auto;
+    margin-left: 45%;
+    margin-right: 20%;
+    margin-top: -45%;
+}
+.link-4 {
+    width: 10%;
+    height: auto;
+    margin-left: 60%;
+    margin-right: 20%;
+    margin-top: -45%;
+}
+.link-5 {
+    width: 10%;
+    height: auto;
+    margin-left: 22.5%;
+    margin-right: 20%;
+    margin-top: -25%;
+}
+.link-6 {
+    width: 10%;
+    height: auto;
+    margin-left: 37.5%;
+    margin-right: 20%;
+    margin-top: -25%;
+}
+.link-7 {
+    width: 10%;
+    height: auto;
+    margin-left: 52.5%;
+    margin-right: 20%;
+    margin-top: -25%;
+}
+/*End section*/
+.pic-end {
+    width: 31.15%;
+    height: auto;
+    margin-left: 12%;
+    margin-right: 30%;
+    margin-top: -25.2%;
+}
