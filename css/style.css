@@ -39,6 +39,7 @@ body {
 .pic {
     width: 100%;
     height: auto;
+    position: relative;
 }
 .pic-pos img{
     position: absolute;
@@ -76,43 +77,43 @@ body {
 .text-beg-1 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -50%;
 }
 .text-beg-2 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -46%;
 }
 .text-beg-3 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -42%;
 }
 .text-beg-4 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -38%;
 }
 .text-beg-5 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -34%;
 }
 .text-beg-6 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -30%;
 }
 .text-beg-7 {
     font-size: 1.8vw;
     margin-left: 44%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: -26%;
 }
 
@@ -376,7 +377,7 @@ body {
 }
 
 .text-map-1 {
-    font-size: 1.8vw;
+    font-size: 1.7vw;
     margin-left: 6%;
     margin-right: 6%;
     margin-top: -48.7%;
@@ -394,7 +395,7 @@ body {
     margin-top: -26.5%;
 }
 .text-map-4 {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin-left: 33.5%;
     margin-right: 5%;
     margin-top: -15.5%;
@@ -450,6 +451,13 @@ body {
     margin-left: 55.7%;
     margin-right: 30%;
     margin-top: -25.1%;
+}
+.map-main {
+    width: 41.2%;
+    height: auto;
+    margin-left: 6.5%;
+    margin-right: 30%;
+    margin-top: -48.8%;
 }
 
 .logo-text-1 {
@@ -563,7 +571,11 @@ body {
     font-family: 'Comic Sans MS';
     position: absolute;
 }
-
+.staff p {
+    font-family: 'Comic Sans MS';
+    color: #ff7220;
+    position: absolute;
+}
 .title-staff {
     font-size: 4.5vw;
     margin-left: 4%;
@@ -573,6 +585,68 @@ body {
     background: #a0a0a0;
     border: 10px solid #a0a0a0;
     border-radius: 10px;
+}
+.video {
+    width: 20%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: -43%;
+}
+.text-video {
+    font-size: 2.5vw;
+    margin-left: 18%;
+    margin-right: 15%;
+    margin-top: -21%;
+    background: #fff;
+    border: 10px solid #fff;
+}
+.pic-staff-1 {
+    width: 15%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: -40%;
+}
+.pic-staff-2 {
+    width: 15%;
+    height: auto;
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: -40%;
+}
+.text-staff-1 {
+    font-size: 1.5vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -18%;
+    background: #fff;
+    border: 6px solid #fff;
+}
+.text-staff-2 {
+    font-size: 1.5vw;
+    margin-left: 45%;
+    margin-right: 15%;
+    margin-top: -18%;
+    background: #fff;
+    border: 6px solid #fff;
+}
+.text-staff-3 {
+    font-size: 1.5vw;
+    margin-left: 13.5%;
+    margin-right: 15%;
+    margin-top: -14%;
+    background: #fff;
+    border: 6px solid #fff;
+}
+
+.text-staff-4 {
+    font-size: 1.5vw;
+    margin-left: 48.5%;
+    margin-right: 15%;
+    margin-top: -14%;
+    background: #fff;
+    border: 6px solid #fff;
 }
 
 /*Links section*/
@@ -695,11 +769,17 @@ body {
     margin-right: 20%;
     margin-top: -25%;
 }
+.txt {
+    font-size: 5vw;
+    margin-left: 17%;
+    margin-right: 5.5%;
+    margin-top: -33.5%;
+}
 /*End section*/
 .pic-end {
-    width: 31.15%;
+    width: 20%;
     height: auto;
-    margin-left: 12%;
+    margin-left: 17%;
     margin-right: 30%;
-    margin-top: -25.2%;
+    margin-top: -21%;
 }
